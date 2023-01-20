@@ -30,7 +30,7 @@ img {
 }
 
 .product-type{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     letter-spacing: 3px;
     font-weight: 500;
@@ -38,14 +38,14 @@ img {
 }
 
 .product-title{
-    font-family: 'Fraunces';
+    font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 36px;
     margin: 0;
 }
 
 .product-description{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     opacity: 0.5;
 }
@@ -59,12 +59,14 @@ img {
 }
 
 .new-price{
+    font-family: 'Fraunces', serif;
     font-size: 36px;
     font-weight: 700;
     color: hsl(158, 36%, 37%);
 }
 
 .old-price{
+    font-family: 'Montserrat', sans-serif;
     color: black;
     opacity: 0.75;
 }
@@ -80,6 +82,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .cart-btn:hover{
